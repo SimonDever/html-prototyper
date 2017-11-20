@@ -7,8 +7,6 @@ var gulp = require('gulp'),
   browserSync = require('browser-sync').create(),
   sass = require('gulp-sass');
 
-gulp.task('default', ['build']);
-
 gulp.task('build', (cb) => {
   return runSequence('clean', ['html', 'sass', 'copy-js', 'copy-images'], cb);
 });
