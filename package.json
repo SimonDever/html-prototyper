@@ -1,7 +1,7 @@
 {
  "name": "html-prototyper",
  "version": "1.0.0",
- "description": "Basic project with Gulp, SASS, Handlebars and Browsersync for HTML prototyping.",
+ "description": "HTML prototyper using Gulp, SASS, Handlebars and Browsersync.",
  "author": "Simon Dever (https://github.com/simondever)",
  "repository": {
    "type": "git",
