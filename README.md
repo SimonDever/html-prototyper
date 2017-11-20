@@ -1,1 +1,6 @@
-# gulp-sass-handlebars-starter
+# HTML Prototyper
+
+- SASS
+- Handlebars
+- BrowserSync
+- Gulp
