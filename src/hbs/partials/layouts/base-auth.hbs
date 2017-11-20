@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>{{#if page-title}} {{page-title}} {{else}} Home {{/if}}</title>
+  <meta name="description" content="{{ page-description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/app.css">
+  {{#> head-block}}
+    {{!-- Custom <head> content per page could be added. --}}
+  {{/head-block}}
+</head>
+<body>
+    {{#> header-block}}
+      {{> includes/header-auth }}
+    {{/header-block}}
+
+    {{#> content-block}}
+      {{!-- Page content goes here. --}}
+    {{/content-block}}
+
+    {{#> footer-block}}
+      {{> includes/footer }}
+    {{/footer-block}}
+
+    {{#> scripts-block}}
+      <script type="text/javascript" src="js/app.js"></script>
+    {{/scripts-block}}
+  </body>
+</html>

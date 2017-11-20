@@ -1,0 +1,20 @@
+{
+ "name": "html-prototyper",
+ "version": "0.0.1",
+ "description": "Basic project with Gulp, SASS, Handlebars and Browsersync for HTML prototyping.",
+ "license": "UNLICENCED",
+ "scripts": {
+  "build": "gulp",
+  "serve": "gulp serve"
+ },
+ "devDependencies": {
+  "browser-sync": "^2.18.13",
+  "gulp": "^3.9.1",
+  "gulp-compile-handlebars": "^0.6.1",
+  "gulp-rename": "^1.2.2",
+  "gulp-sass": "^3.1.0",
+  "handlebars": "^4.0.11",
+  "rimraf": "^2.6.1",
+  "run-sequence": "^1.1.5"
+ }
+}

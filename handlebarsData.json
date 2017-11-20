@@ -1,0 +1,22 @@
+{
+	"user": {
+		"firstName": "John",
+		"middleName": "",
+		"lastName": "Citizen",
+		"dob": "12 April 1970",
+		"session": {
+			"lastSignIn": "12 May 2015, 15:15 AEST"
+		},
+		"notifications": [{
+			"type": "warning",
+			"text": "We could not alert you of inbox messages, please <a href='#'>update your notification contact details</a>",
+			"dismissable": true,
+			"attributes": ["data-dismiss-inbox-alert"]
+		},{
+			"type": "info",
+			"text": "We recommend you update your <a href='#'>sign in options</a> to receive a code when you sign in.</span>",
+			"dismissable": true,
+			"attributes": ["data-dismiss-otp-alert"]
+		}]
+	}
+}

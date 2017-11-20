@@ -1,0 +1,20 @@
+{{#> layouts/base-auth
+     page-title="Homez"
+     page-description="Something"
+}}
+  {{#*inline "content-block"}}
+  
+      <div id="content">
+		<p>{{user.firstName}} {{user.middleName }} {{user.lastName}}, {{user.dob}}</p>
+		
+    	{{#if user.session.lastSignIn}}
+			<p>Last sign in: {{user.session.lastSignIn}}</p>
+        {{/if}}
+
+		{{#each user.notifications}}
+			{{> includes/notification data=this }}
+		{{/each}}
+      </div>
+
+  {{/inline}}
+{{/layouts/base-auth}}
