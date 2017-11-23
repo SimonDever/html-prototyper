@@ -50,7 +50,7 @@ gulp.task('serve', ['build'], function() {
   gulp.watch("src/scss/**/*.scss", ['sass']);
   gulp.watch("src/hbs/**/*.hbs", ['html']);
   gulp.watch("src/js/**/*", ['copy-js']);
-  gulp.watch("src/images/**/*", ['copy-images'], browserSync.reload)
+  gulp.watch("src/images/**/*", ['copy-images'], browserSync.reload);
   gulp.watch("build/**/*.html").on('change', browserSync.reload);
   gulp.watch("build/js/**/*").on('change', browserSync.reload);
   gulp.watch("build/images/**/*").on('change', browserSync.reload);
