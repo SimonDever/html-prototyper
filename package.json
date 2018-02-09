@@ -1,28 +1,28 @@
 {
- "name": "html-prototyper",
- "version": "1.0.0",
- "description": "HTML prototyper using Gulp, SASS, Handlebars and Browsersync.",
- "author": "Simon Dever (https://github.com/simondever)",
- "repository": {
-   "type": "git",
-   "url": "https://github.com/simondever/html-prototyper.git"
- },
- "license": "Artistic-2.0",
+  "name": "html-prototyper",
+  "version": "1.0.0",
+  "description": "HTML prototyper using Gulp, SASS, Handlebars and Browsersync.",
+  "author": "Simon Dever (https://github.com/simondever)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simondever/html-prototyper.git"
+  },
+  "license": "Artistic-2.0",
   "bugs": {
     "url": "https://github.com/simondever/html-prototyper/issues"
   },
- "scripts": {
-  "build": "gulp build",
-  "serve": "gulp serve"
- },
- "devDependencies": {
-  "browser-sync": "^2.18.13",
-  "gulp": "^3.9.1",
-  "gulp-compile-handlebars": "^0.6.1",
-  "gulp-rename": "^1.2.2",
-  "gulp-sass": "^3.1.0",
-  "handlebars": "^4.0.11",
-  "rimraf": "^2.6.1",
-  "run-sequence": "^1.1.5"
- }
+  "scripts": {
+    "build": "gulp build",
+    "serve": "gulp serve"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "handlebars": "^4.0.11",
+    "rimraf": "^2.6.1",
+    "run-sequence": "^2.2.0"
+  }
 }
